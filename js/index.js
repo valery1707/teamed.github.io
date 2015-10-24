@@ -1,0 +1,1 @@
+angular.module("teamed",[]).controller("Main",["$scope",function(o){o.submit=function(){var t="I have a project to outsource:\n\n"+o.details,e="http://www.netbout.com/start?post="+encodeURIComponent(t)+"&invite=yegor256&rename=new+project";window.location=e}}]);
