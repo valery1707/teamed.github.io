@@ -24,8 +24,8 @@ header {
   background: -moz-linear-gradient(-45deg, #e6e1cf 0%, #ddd5ba 100%);
   background: -webkit-linear-gradient(-45deg, #e6e1cf 0%, #ddd5ba 100%);
   background: linear-gradient(135deg, #e6e1cf 0%, #ddd5ba 100%); }
-  header .slogan {
-    font-size: 72px;
+  header h1 {
+    font-size: 74.4px;
     color: #64585a;
     line-height: 1.1em;
     font-weight: 700; }
@@ -54,7 +54,7 @@ section p {
   margin-top: 1em;
   margin-bottom: 1em; }
 
-.centered {
+.centered, h2 {
   text-align: center; }
 
 .container {
@@ -78,7 +78,7 @@ article {
 .small {
   font-size: 19.2px; }
 
-.headline span {
+h2 {
   font-weight: 600;
   color: #64585a;
   font-size: 40.8px; }
