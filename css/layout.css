@@ -25,10 +25,12 @@ header {
   background: -webkit-linear-gradient(-45deg, #e6e1cf 0%, #ddd5ba 100%);
   background: linear-gradient(135deg, #e6e1cf 0%, #ddd5ba 100%); }
   header img {
-    width: 250px; }
+    width: 250px;
+    height: 232px; }
     @media all and (max-width: 1024px) {
       header img {
-        width: 160px; } }
+        width: 160px;
+        height: 149px; } }
   header h1 {
     font-size: 74.4px;
     color: #64585a;
