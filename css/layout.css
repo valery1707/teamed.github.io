@@ -126,4 +126,7 @@ label {
 
 .ico {
   color: #64585a;
-  font-size: 5em; }
+  font-size: 120px; }
+  @media all and (max-width: 1024px) {
+    .ico {
+      font-size: 84px; } }
