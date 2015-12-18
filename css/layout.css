@@ -24,16 +24,25 @@ header {
   background: -moz-linear-gradient(-45deg, #e6e1cf 0%, #ddd5ba 100%);
   background: -webkit-linear-gradient(-45deg, #e6e1cf 0%, #ddd5ba 100%);
   background: linear-gradient(135deg, #e6e1cf 0%, #ddd5ba 100%); }
+  header img {
+    width: 250px; }
+    @media all and (max-width: 1024px) {
+      header img {
+        width: 160px; } }
   header h1 {
     font-size: 74.4px;
     color: #64585a;
     line-height: 1.1em;
     font-weight: 700; }
+    @media all and (max-width: 1024px) {
+      header h1 {
+        font-size: 48px; } }
 
 footer {
   font-family: Verdana;
   background-color: #64585a;
-  padding: 72px;
+  padding-top: 72px;
+  padding-bottom: 72px;
   color: #dcd4bb;
   font-size: 16.8px;
   text-shadow: 0 1px 0 black; }
